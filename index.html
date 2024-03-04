@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradient-Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./images/images-removebg-preview (3).png" type="image/x-icon">
+</head>
+<body>
+    <div class="heading">Gradient-Generator</div>
+    <div class="wrapper">
+        <div class="gradient-box"></div>
+        <div class="row options">
+     <div class="column direction">
+        <p>Directions</p>
+        <div class="select-box">
+         <select name="" id="">
+            <option value="to top">Top</option>
+            <option value="to right top">Right Top</option>
+            <option value="to right">Right</option>
+            <option value="to right bottom">Right Bottom</option>
+            <option value="to bottom">Bottom</option>
+            <option value="to left bottom">Left Bottom</option>
+            <option value="to left">Left</option>
+            <option value="to left top">Left Top</option>
+         </select>
+        </div>
+     </div>
+     <div class="column colors colors1">
+        <p>Colors</p>
+        <div class="inputs">
+            <input type="color" class="color1" value="#5665e9">
+            <input type="color" class="color2" value="#A271F8">
+
+        </div>
+     </div>
+   </div>
+   <div class="range">
+	<div class="sliderValue">
+		<span>50</span>
+	</div>
+	<div class="field colors1">
+		<div class="value left">
+			0</div>
+		<input class="slide"  type="range" min="0" max="100" value="50">
+		<div class="value right">
+			100</div>
+	</div>
+</div>
+   
+   <textarea disabled class="row">background:linear-gradient(to left top ,#977DFE,#6878FF);</textarea>
+   <div class="row buttons">
+    <button class="refresh">Refresh Colors</button>
+    <button class="copy">Copy Code</button>
+   </div>
+</div>
+<footer class="footer">
+    <p class="footer-text">&copy; 2024 Yash Aggarwal . All Rights Reserved.</p>
+</footer> 
+<script src="script.js"></script>
+</body>
+</html>
